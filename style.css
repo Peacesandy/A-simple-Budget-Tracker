@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   background: url('expense tracker.jpg')no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container{
+    background-color: #fff;
+    height: 900px;
+    width: 550px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date']{
+    border: 2px solid #dedede;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 5px;
+    width: 98%;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #990699;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    padding: 8px;
+    width: 50%;
+  }
+
+  h1{
+    text-align: center;
+    color: purple;
+  }
+
+  .total-amount-container{
+    text-align: center;
+     padding: 10px;
+     color: #990699;
+  }
+
+.user-amount-container{
+  text-align: center;
+     padding: 10px;
+     color: #990699;
+}
+
+h2{
+    text-align: center;
+    color: #990699;
+}
+
+h4{
+    text-align: center;
+    color: #990699;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.output-container {
+  background-color:  #990699;
+  color: #ffffff;
+  border-radius: 0.3em;
+  box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+  margin: 2em 0;
+  padding: 5px;
+}
+.output-container p {
+  font-weight: 500;
+  margin-bottom: 0.6em;
+}
+.output-container span {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.list li {
+  background-color: #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.balance{
+    text-align: center;
+    color: #990699;
+}
+
+.total-container{
+    background-color: #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.total-container > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .total-container > div:first-of-type {
+    border-right: 1px solid #3d3b3b;
+  }
+
+  .balance{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+  }
+  
+.list{
+  color: #990699;
+}
